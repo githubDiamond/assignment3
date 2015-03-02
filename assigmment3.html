@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/assignment3.css" />
+    <script src="js/assignment3.js"></script>
+</head>
+ 
+<body>
+    <div id="header">
+        <header><h1>Assignment 3 <br /> Karen Horton</h1>
+                 
+        </header>
+    </div>
+    <hr>
+    <section>
+        <div class="sec2style"> 
+    <div style="text-align: center";>
+        <p>
+        <label>Please select initial meeting date: </label>
+        <input type="text" id="mdate" name="meetdate" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="mm/dd/yyyy">
+        <br />
+        <label>Please meeting interval: </label>   
+        <input type="number" id="interval" placeholder=" ##">
+        <br />
+        <label>Please number of meetings: </label>
+        <input type="number" id="nomeets" placeholder=" ##">
+        <br />
+        <button onclick="calcmeetings()">Calculate Next Date</button>
+        <p id="displayresults">Meet Schedule</p>
+        </p>
+    </div>
+        </div>
+        </section>
+</body>
+
+<footer>
+    <div id="footer">
+        <p>  Karen Horton 
+            <br />khorton@uab.edu
+        </p> 
+    </div>
+</footer>
+</html>
